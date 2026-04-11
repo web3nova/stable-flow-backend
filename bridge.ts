@@ -7,10 +7,10 @@ import dotenv from "dotenv";
 dotenv.config();
 
 // Configuration
-const BRIDGE_ADDRESSES = {
-  sepolia: "0xcCDaC15b8E7C4Aa44b12B3acA6D8469B7a9F970a",
-  "base-sepolia": "0x41fFA79190fF1B2127FBf31B359B64392a026C58",
-};
+//const BRIDGE_ADDRESSES = {
+//  sepolia: "0xcCDaC15b8E7C4Aa44b12B3acA6D8469B7a9F970a",
+//  "base-sepolia": "0x41fFA79190fF1B2127FBf31B359B64392a026C58",
+//};
 
 const USDT_ADDRESSES = {
   sepolia: "0x21dE5De8A2b4A7c0f8198ac240403Af7d093179e",
