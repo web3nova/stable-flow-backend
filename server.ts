@@ -892,6 +892,7 @@ app.post("/faucet/usdt", async (req: Request, res: Response) => {
       blockNumber: receipt.blockNumber.toString()
     });
 
+
   } catch (error: any) {
     console.error("❌ Faucet error:", error);
     res.status(500).json({
