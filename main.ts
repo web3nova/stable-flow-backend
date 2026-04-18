@@ -1,7 +1,6 @@
 import { CdpClient } from "@coinbase/cdp-sdk";
 import { parseEther, isAddress } from "viem";
 import dotenv from "dotenv";
-
 dotenv.config();
 
 // Validate environment variables
