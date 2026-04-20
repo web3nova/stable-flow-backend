@@ -88,6 +88,7 @@ class SecurityValidator {
   /**
    * Rate limiting check
    */
+  
   static checkRateLimit(identifier: string): void {
     const now = Date.now();
     const tracker = this.rateLimitTracker.get(identifier);
