@@ -53,7 +53,7 @@ async function executeTransaction() {
     
     if (CONFIG.RECIPIENT_ADDRESS === "0x0000000000000000000000000000000000000000") {
       console.warn("\n⚠️  WARNING: Sending to zero address (0x0...0) will burn funds!");
-      console.warn("⚠️  Please update CONFIG.RECIPIENT_ADDRESS to a valid address\n");
+      console.warn("⚠️  Please update CONFIG.RECIPIENT_ADDRESS to a valid address on base\n");
     }
 
     // Send user operation
