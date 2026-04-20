@@ -11,7 +11,7 @@ dotenv.config();
 const SECURITY_CONFIG = {
   MAX_TRANSACTION_VALUE: parseEther("1"), // Maximum 1 ETH per transaction
   TRANSACTION_TIMEOUT: 200000, // 5 minutes timeout
-  MAX_RETRIES: 3,
+  MAX_RETRIES: 5,
   RETRY_DELAY: 2000, // 2 seconds
   ALLOWED_NETWORKS: ["base-sepolia", "base-mainnet","mainnet"] as const,
   RATE_LIMIT: {
@@ -88,7 +88,7 @@ class SecurityValidator {
   /**
    * Rate limiting check
    */
-  
+
   static checkRateLimit(identifier: string): void {
     const now = Date.now();
     const tracker = this.rateLimitTracker.get(identifier);
