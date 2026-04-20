@@ -13,7 +13,7 @@ const SECURITY_CONFIG = {
   TRANSACTION_TIMEOUT: 200000, // 5 minutes timeout
   MAX_RETRIES: 3,
   RETRY_DELAY: 2000, // 2 seconds
-  ALLOWED_NETWORKS: ["base-sepolia", "base-mainnet"] as const,
+  ALLOWED_NETWORKS: ["base-sepolia", "base-mainnet","mainnet"] as const,
   RATE_LIMIT: {
     maxRequests: 10,
     windowMs: 60000, // 1 minute
