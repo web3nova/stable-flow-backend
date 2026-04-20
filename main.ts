@@ -90,7 +90,7 @@ async function executeTransaction() {
 
     // Check final status
     if (userOperation.status === "complete") {
-      const explorerLink = `https://sepolia.basescan.org/tx/${userOperation.transactionHash}`;
+      const explorerLink = `https://basescan.org/tx/${userOperation.transactionHash}`;
       console.log("\n✅ User operation confirmed successfully!");
       console.log("   Transaction hash:", userOperation.transactionHash);
       console.log("   Block explorer:", explorerLink);
