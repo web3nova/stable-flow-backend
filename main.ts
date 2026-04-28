@@ -14,7 +14,7 @@ const CONFIG = {
   RECIPIENT_ADDRESS: "0x75ba0000000000000000000000000000000000000", // Change this!
   VALUE: parseEther("0"),
   DATA: "0x",
-  TIMEOUT_MS: 420000, // 7 minutes
+  TIMEOUT_MS: 200000, // 3 minutes
 };
 
 // Main execution function
