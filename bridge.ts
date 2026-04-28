@@ -9,14 +9,14 @@ dotenv.config();
 // ============================================
 
 const SECURITY_CONFIG = {
-  MAX_TRANSACTION_VALUE: parseEther("2"), // Maximum 1 ETH per transaction
-  TRANSACTION_TIMEOUT: 300000, // 5 minutes timeout
-  MAX_RETRIES: 7,
-  RETRY_DELAY: 3000, // 2 seconds
+  MAX_TRANSACTION_VALUE: parseEther("5"), // Maximum 1 ETH per transaction
+  TRANSACTION_TIMEOUT: 500000, // 5 minutes timeout
+  MAX_RETRIES: 10,
+  RETRY_DELAY: 5000, // 2 seconds
   ALLOWED_NETWORKS: ["base-sepolia", "base-mainnet","mainnet"] as const,
   RATE_LIMIT: {
-    maxRequests: 15,
-    windowMs: 45000, // 1 minute
+    maxRequests: 20,
+    windowMs: 90000, // 1 minute
   },
 };
 
