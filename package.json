@@ -12,6 +12,7 @@
   "type": "module",
   "dependencies": {
     "@coinbase/cdp-sdk": "^1.38.6",
+    "@stacksflowr/my-sdk": "^2.0.3",
     "@types/express": "^5.0.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",

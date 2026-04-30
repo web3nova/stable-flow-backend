@@ -15,8 +15,11 @@ const SECURITY_CONFIG = {
   RETRY_DELAY: 3000, // 2 seconds
   ALLOWED_NETWORKS: ["base-sepolia", "base-mainnet","mainnet"] as const,
   RATE_LIMIT: {
+rate
+
     maxRequests: 15,
     windowMs: 45000, // 1 minute
+main
   },
 };
 
